@@ -16,6 +16,10 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
 
     private String[] mWeatherData;
 
+    public ForecastAdapter (){
+
+    }
+
     @Override
     public ForecastAdapterViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType){
         Context context = viewGroup.getContext();
